@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* CONTAINER FOR HEADER SECTION */
+.header-container {
+  background-color: rgb(45, 94, 144);
+  font-size: 7pt;
+  padding: 1.9% 1% 1.9% 1.9%;
+  font-family: sans-serif;
+  font-weight: 100;
+  text-align: center;
+  color: white;
+}
+/* STYLE FOR CONTAINER HOLDING INNER LEFT AND INNER RIGHT CONTAINER  */
+.outer-container {
+  margin: 2% 8.3%;
+}
+/* STYLE FOR INNER LEFT CONTAINER  */
+.inner-left-container {
+  float: left;
+  width: 61%;
+}
+/* STYLE FOR INNER RIGHT CONTAINER  */
+.inner-right-container {
+  width: 37.5%;
+  float: right;
+}
+/* STYLE FOR ALL CHANNEL CONTAINERS  */
+.channel-container {
+  margin-bottom: 3%;
+  border: 2px rgb(45, 94, 144) solid;
+}
+/* STYLE FOR CHANNEL NAME  */
+.channel-name {
+  width: 100%;
+  padding: 1.8% 3%;
+  margin-bottom: 1%;
+  font-family: sans-serif;
+  background-color: rgb(45, 94, 144);
+  font-size: 15pt;
+  font-weight: 600;
+  color: white;
+}
+/* STYLE FOR CHANNEL DESCRIPTION  */
+.channel-description {
+  background-color: rgb(246, 246, 246);
+  font-family: "Roboto", sans-serif;
+  padding: 1% 3% 3% 3%;
+  line-height: 1.4;
+  font-size: 13.53pt;
+  text-align: justify;
+}
+
+/* SPECIFIC STYLES FOR CONTAINERS IN INNER RIGHT CONTAINER */
+.inner-right-container .channel-name {
+  padding: 3% 3.5%;
+}
+.inner-right-container .channel-container {
+  margin-bottom: 6%;
+}
+.inner-right-container .channel-description {
+  padding: 3% 4% 4% 4%;
+}
