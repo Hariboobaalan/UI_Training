@@ -2,7 +2,6 @@
 * {
   margin: 0;
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
 }
 /*---------- UNIVERSAL SELECTOR ENDS ----------*/
 /*---------- HEADER  START ----------*/
@@ -21,6 +20,9 @@ header {
   width: 100%;
 }
 /*---------- HEADER  END ----------*/
+body {
+  font-family: "Roboto", sans-serif;
+}
 /*---------- SECTION CONTENT START ----------*/
 .cards-container {
   width: 90%;
@@ -79,12 +81,13 @@ header {
   font-size: 400%;
   font-weight: 300;
 }
+
 #conclusion-para {
   text-align: justify;
   font-weight: 200;
-  font-size: 180%;
+  font-size: 24px;
   margin-top: 25px;
-  line-height: 140%;
+  line-height: 35px;
 }
 /*---------- CONCLUSION CONTENT END ----------*/
 /*---------- FOOTER CONTENT START ----------*/
@@ -93,14 +96,14 @@ footer {
   background-color: rgb(112, 32, 83);
   font-weight: 400;
 }
-.footer-content-div {
+.footer-content {
   width: 100%;
   padding: 34.5px;
   padding-left: 120.95px;
   color: white;
 }
-.footer-content-div > h3 {
+.footer-content > h3 {
   margin-top: 5px;
   font-weight: 100;
 }
-/*---------- CONCLUSION CONTENT END ----------*/
+/*---------- FOOTER CONTENT END ----------*/
